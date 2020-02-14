@@ -1,0 +1,52 @@
+<LinearLayout android:orientation="vertical"
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="#C5E99B"
+	xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+	<androidx.appcompat.widget.AppCompatImageView
+		android:layout_width="wrap_content"
+		android:layout_height="80dp"
+		android:src="@drawable/logo_one" />
+	<LinearLayout
+		android:orientation="vertical"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_margin="20dp"
+	    android:padding="20dp"
+	    android:layout_centerInParent="true"
+	    android:background="@drawable/text_background"
+	    >
+
+		<androidx.appcompat.widget.AppCompatTextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/cafe24ohsquare"
+			android:text="이      름 : 문지환"
+			/>
+		<androidx.appcompat.widget.AppCompatTextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/cafe24ohsquare"
+			android:text="전화번호 : 010-9211-1220"
+			/>
+		<androidx.appcompat.widget.AppCompatTextView
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:fontFamily="@font/cafe24ohsquare"
+			android:text="생년월일 : 1994.01.07"
+			/>
+
+	</LinearLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content">
+	<androidx.recyclerview.widget.RecyclerView
+		android:id="@+id/recyclerView"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"/>
+
+	</LinearLayout>
+</LinearLayout>
